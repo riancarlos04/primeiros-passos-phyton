@@ -1,0 +1,5 @@
+algo = input('Escreva algo ')
+print(type(algo))
+print('{} é um numero? {}'.format(algo, algo.isnumeric()))
+print('{} é uma letra? {}'.format(algo, algo.isalpha()))
+print('{} é alfanumérico? {}'.format(algo, algo.isalnum()))
