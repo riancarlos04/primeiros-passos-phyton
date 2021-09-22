@@ -1,0 +1,5 @@
+num = input('Digite um numero inteiro de 4 digitos: ')
+print(f'Unidae: {num[0]}')
+print(f'Dezena: {num[1]}')
+print(f'Centena: {num[2]}')
+print(f'Milhar: {num[3]}')
