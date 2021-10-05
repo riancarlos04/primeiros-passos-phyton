@@ -9,3 +9,4 @@ elif s1 < (s2 + s3) and s2 < (s1 + s3) and s3 < (s1 + s2) and s1 != s2 and s2 !=
     print(f'Com os seguimentos acima pode se formar um triangulo ESCALENO ')
 else:
     print('Com os seguimentos acima NÃo se pode formar um triangulo')
+ç
