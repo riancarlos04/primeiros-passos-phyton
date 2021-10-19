@@ -2,8 +2,8 @@ from datetime import date
 contMaior = 0
 contMenor = 0
 anoatual = date.today().year
-for c in range (0, 7):
-    anonasc = int(input('Digite seu ano de nascimento: '))
+for c in range (1, 8):
+    anonasc = int(input(f'Em que ano a {c}º pessoa nasceu:  '))
     if anoatual - anonasc >= 18:
         contMaior = contMaior + 1
     else:

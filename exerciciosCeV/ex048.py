@@ -1,6 +1,9 @@
 s = 0
-for c in range (1, 501):
-    if c % 2 == 1 and c % 3 == 0:
+cont = 0
+for c in range (1, 501, 2):
+    if c % 3 == 0:
         print(c)
         s = s + c
-print(f'O somatorio dos numeros é igual a {s}')
+        cont = cont + 1
+
+print(f'O somatorio dos {cont} numeros é igual a {s}')
